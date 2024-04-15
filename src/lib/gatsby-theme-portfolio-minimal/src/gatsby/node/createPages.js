@@ -1,6 +1,5 @@
 const path = require("path");
 const query = require("../../templates/Article/query");
-const options = require("./config")
 
 module.exports = async ({ graphql, actions, reporter }, options) => {
   const templateDir = path.join(

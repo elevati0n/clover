@@ -8,7 +8,7 @@ import {
   Page,
   ProjectsSection,
   Seo,
-} from "../clover/";
+} from "./../";
 
 export default function IndexPage() {
   return (

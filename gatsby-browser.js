@@ -1,6 +1,4 @@
-require("./src/lib/gatsby-theme-portfolio-minimal/src/globalStyles/prism.css");
-const options = require("./config")
-
+// require("./src/lib/gatsby-theme-portfolio-minimal/src/globalStyles/prism.css");
 const Cookies = require("js-cookie");
 
 exports.onRouteUpdate = ({ location, prevLocation }) => {

@@ -1,0 +1,11 @@
+export { Page } from "./components/Page";
+export { Seo } from "./components/Seo";
+export { HeroSection } from "./sections/Hero";
+export { ArticlesSection } from "./sections/Articles";
+export { AboutSection } from "./sections/About";
+export { InterestsSection } from "./sections/Interests";
+export { ProjectsSection } from "./sections/Projects";
+export { ContactSection } from "./sections/Contact";
+export { LegalSection } from "./sections/Legal";
+export { Section } from "./components/Section";
+export { Animation } from "./components/Animation";

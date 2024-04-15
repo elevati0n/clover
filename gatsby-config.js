@@ -1,9 +1,8 @@
 const path = require("path");
-const options = require("./config")
+const options = require("./config");
 
 module.exports = {
-  siteMetadata:
-      { siteUrl:  "https://loveyou-clover.netlify.app/" },
+  siteMetadata: { siteUrl: "https://loveyou-clover.netlify.app/" },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
@@ -74,24 +73,24 @@ module.exports = {
     },
     `gatsby-plugin-robots-txt`,
     `gatsby-plugin-sitemap`,
-      {
-          resolve: `gatsby-plugin-manifest`,
-          options: {
-              name: options.manifestSettings.siteName,
-              short_name: options.manifestSettings.shortName,
-              start_url: options.manifestSettings.startUrl,
-              background_color: options.manifestSettings.backgroundColor,
-              theme_color: options.manifestSettings.themeColor,
-              display: options.manifestSettings.display,
-              icons: options.manifestSettings.icons,
-          }
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: options.manifestSettings.siteName,
+        short_name: options.manifestSettings.shortName,
+        start_url: options.manifestSettings.startUrl,
+        background_color: options.manifestSettings.backgroundColor,
+        theme_color: options.manifestSettings.themeColor,
+        display: options.manifestSettings.display,
+        icons: options.manifestSettings.icons,
       },
-        {
-          resolve: `gatsby-plugin-plausible`,
-          options: {
-            domain: options.plausibleAnalytics.domain,
-          },
-        },
+    },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: options.plausibleAnalytics.domain,
+      },
+    },
     `gatsby-plugin-offline`,
   ],
 };

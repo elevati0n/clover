@@ -2,33 +2,33 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "title": "Book Tattoo || Clover Fields || Fine Artist and Tattooer || @LoveYouClover",
+    "titleTemplate": "%s || Clover Fields || Fine Artist and Tattooer || @LoveYouClover",
+    "description": "Clover Fields || Fine Artist and Tattooer || @LoveYouClover",
+    "author": "Clover Fields",
+    "avatar": "../content/images/insta.webp",
+    "bio": "Hi! I'm Clover Fields, 28, from Los Angeles, California. I'm a tattoo artist, a fine artist, and part owner of miss u tattoo.\n\nI have a background in Graphic Design, a deep passion for editing and organizing, and I'm always interested in getting involved in diy projects however I can. Send me a DM or email if you want to work together </3",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "youtube": "https://www.youtube.com/@loveyouclover",
+      "tiktok": "https://www.tiktok.com/@loveyouclover",
+      "instagram": "https://www.instagram.com/loveyouclover/",
+      "mail": "cfloverields@gmail.com",
+      "linktree": "https://linktr.ee/loveyouclover"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "Clover Fields" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Articles", "url": "/articles" },
+        { "label": "Events", "url": "/events" },
+        { "label": "BOOK NOW", "url": "/#book" }
       ],
       "ctaButton": {
-        "openNewTab": true,
-        "label": "Resume",
-        "url": "/resume.pdf"
+        "openNewTab": false,
+        "label": "Book NOW",
+        "url": "/#book"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },

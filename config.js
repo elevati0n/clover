@@ -1,8 +1,13 @@
 const options = {
-  googleAnalytics: {},
+  googleAnalytics: {
+    trackingId: "",
+    cookieName: "",
+    anonymize: true,
+  },
+  environments: "production",
   blogSettings: {
     entityName: "Article",
-    path: "/blog",
+    path: "/articles",
     usePathPrefixForArticles: false,
   },
   plausibleAnalytics: {
@@ -12,8 +17,8 @@ const options = {
     siteName: "Clover Fields || Fine Artist and Tattooer || @LoveYouClover",
     shortName: "@LoveYouClover",
     startUrl: "/",
-    backgroundColor: "#FFF",
-    themeColor: "#000",
+    backgroundColor: "#000",
+    themeColor: "#FFF",
     display: "minimal-ui",
     icons: [
       {
