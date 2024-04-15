@@ -1,13 +1,13 @@
 import React from "react";
-import { Page } from "../../components/Page";
-import { Section } from "../../components/Section";
-import { Seo } from "../../components/Seo";
-import { Slider } from "../../components/Slider";
-import { ArticleCard } from "../../components/ArticleCard";
-import { Button, ButtonType } from "../../components/Button";
+import { Page } from "../../src/clover/components/Page";
+import { Section } from "../../src/clover/components/Section";
+import { Seo } from "../../src/clover/components/Seo";
+import { Slider } from "../../src/clover/components/Slider";
+import { ArticleCard } from "../../src/clover/components/ArticleCard";
+import { Button, ButtonType } from "../../src/clover/components/Button";
 import { ArticleTemplateData } from "../Article/data";
 import * as classes from "./style.module.css";
-import { pluralize } from "../../utils/pluralize";
+import { pluralize } from "../../src/clover/utils/pluralize";
 
 interface ArticleListingTemplateProps {
   pageContext: {

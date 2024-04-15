@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "gatsby";
 import { GatsbyImage } from "gatsby-plugin-image";
-import { Page } from "../../components/Page";
-import { Seo } from "../../components/Seo";
+import { Page } from "../../src/clover/components/Page";
+import { Seo } from "../../src/clover/components/Seo";
 import { AuthorSnippet } from "../../components/AuthorSnippet";
 import { ArticleTemplateData } from "./data";
 import * as classes from "./style.module.css";
-import { pluralize } from "../../utils/pluralize";
+import { pluralize } from "../../src/clover/utils/pluralize";
 
 // Reference to the local prismjs theme (Modified)
-require("../../globalStyles/prism.css");
+require("../../src/clover/globalStyles/prism.css");
 
 interface ArticleTemplateProps {
   pageContext: {

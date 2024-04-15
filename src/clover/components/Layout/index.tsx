@@ -1,5 +1,7 @@
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/700.css";
+import "../../globalStyles/global.css";
+import "../../globalStyles/theme.css";
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Theme, useGlobalState } from "../../context";
