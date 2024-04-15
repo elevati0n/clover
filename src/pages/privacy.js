@@ -1,5 +1,5 @@
 import React from "react";
-import { LegalSection, Page, Seo } from "gatsby-theme-portfolio-minimal";
+import { LegalSection, Page, Seo } from "../lib/gatsby-theme-portfolio-minimal";
 
 export default function PrivacyPage() {
   return (
